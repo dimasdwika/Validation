@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <global>
+        <models>
+            <balance_validation>
+                <class>balance_validation_Model</class>
+            </balance_validation>
+        </models>
+        <blocks>
+            <balance_validation>
+                <class>balance_validation_Block</class>
+            </balance_validation>
+            <enterprise_customer>
+                <rewrite>
+                    <form >balance_validation_Block_Form</form >
+                </rewrite>
+            </enterprise_customer>
+        </blocks>
+        <helpers>
+            <balance_validation>
+                <class>balance_validation_Helper</class>
+            </balance_validation>
+        </helpers>
+    </global>
+</config>
